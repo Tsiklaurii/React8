@@ -2,6 +2,7 @@ import logo from '../../assets/images/logo.svg';
 import arrow_drop_down from '../../assets/images/arrow_drop_down.svg'
 import search from '../../assets/images/search.svg'
 import login from '../../assets/images/login.svg'
+import Button from '../Button/Button';
 
 const Header = () => {
     return (
@@ -18,7 +19,7 @@ const Header = () => {
                 </div>
             </div>
             <div className='flex gap-10'>
-                <button className='bg-[#FCAF17] hover:bg-[#fca017c5] transition-colors rounded-lg p-[11px_16px] cursor-pointer text-[20px]'>Baixe o Launcher</button>
+                <Button btnText='Baixe o Launcher' className='p-[11px_16px]' />
                 <div className='flex gap-6'>
                     <img src={search} alt="search" className='w-12 h-12 cursor-pointer' />
                     <img src={login} alt="login" className='w-12 h-12 cursor-pointer' />

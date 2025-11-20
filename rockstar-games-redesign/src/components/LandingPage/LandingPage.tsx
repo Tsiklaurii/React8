@@ -11,6 +11,7 @@ import RED_online from '../../assets/images/game_posters/RED_Online.svg'
 import game_poster_1 from '../../assets/images/game_posters/game_poster_1.svg'
 import game_poster_2 from '../../assets/images/game_posters/game_poster_2.svg'
 import game_poster_3 from '../../assets/images/game_posters/game_poster_3.svg'
+import GamesLauncher from "../GamesLauncher/GamesLauncher"
 
 const LandingPage = () => {
     return (
@@ -31,6 +32,7 @@ const LandingPage = () => {
                 title3="Nova atualização de GTA Online chegando em dezembro"
                 date3="GTA Online &nbsp;&nbsp; 30 de novembro de 2023"
             />
+            <GamesLauncher />
             <Footer />
         </div>
     )
