@@ -1,9 +1,9 @@
 import footer_logo from '../../assets/images/footer_logo.svg'
-import twitch from '../../assets/images/twitch.svg'
-import insta from '../../assets/images/instagram.svg'
-import twitter from '../../assets/images/twitter.svg'
-import youtube from '../../assets/images/youtube.svg'
-import fb from '../../assets/images/facebook.svg'
+import twitch from '../../assets/images/soc_networks/twitch.svg'
+import insta from '../../assets/images/soc_networks/instagram.svg'
+import twitter from '../../assets/images/soc_networks/twitter.svg'
+import youtube from '../../assets/images/soc_networks/youtube.svg'
+import fb from '../../assets/images/soc_networks/facebook.svg'
 
 const Footer = () => {
     return (
