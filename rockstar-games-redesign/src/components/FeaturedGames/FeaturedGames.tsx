@@ -19,13 +19,13 @@ const FeaturedGames = ({ gamePoster1, gamePoster2, gamePoster3, gamePoster4 }: F
                 </div>
             </div>
             <div className="flex gap-10 m-[40px_0px_64px_0px]">
-                <img src={gamePoster1} alt="game poster" className="w-[260px] h-[315.85px] rounded-2xl" />
-                <img src={gamePoster2} alt="game poster" className="w-[260px] h-[315.85px] rounded-2xl" />
-                <img src={gamePoster3} alt="game poster" className="w-[260px] h-[315.85px] rounded-2xl" />
-                <img src={gamePoster4} alt="game poster" className="w-[260px] h-[315.85px] rounded-2xl" />
+                <img src={gamePoster1} alt="game poster" className="w-[260px] h-[315.85px] rounded-2xl hover:scale-105 transition-transform duration-300 cursor-pointer" />
+                <img src={gamePoster2} alt="game poster" className="w-[260px] h-[315.85px] rounded-2xl hover:scale-105 transition-transform duration-300 cursor-pointer" />
+                <img src={gamePoster3} alt="game poster" className="w-[260px] h-[315.85px] rounded-2xl hover:scale-105 transition-transform duration-300 cursor-pointer" />
+                <img src={gamePoster4} alt="game poster" className="w-[260px] h-[315.85px] rounded-2xl hover:scale-105 transition-transform duration-300 cursor-pointer" />
             </div>
-            <div className="justify-items-center">
-                <Button btnText="Ver todos os jogos" />
+            <div className="flex justify-center">
+                <Button btnText="Ver todos os jogos"  className="p-[15px_48px]" />
             </div>
         </div>
     )
