@@ -12,10 +12,10 @@ const Footer = () => {
                 <img src={footer_logo} alt="footer_logo" className='cursor-pointer' />
                 <div className='flex flex-col gap-2'>
                     <div className='text-[#B1B1B1] flex gap-6'>
-                        <a href="#">CONTATO</a>
-                        <a href="#">SOBRE</a>
-                        <a href="#">SUPORTE</a>
-                        <a href="#">EMPREGOS</a>
+                        <a href="#" className='hover:text-[#5e5e5e] transition-colors'>CONTATO</a>
+                        <a href="#" className='hover:text-[#5e5e5e] transition-colors'>SOBRE</a>
+                        <a href="#" className='hover:text-[#5e5e5e] transition-colors'>SUPORTE</a>
+                        <a href="#" className='hover:text-[#5e5e5e] transition-colors'>EMPREGOS</a>
                     </div>
                     <p className='text-[#B1B1B1] text-[13px]'>©2023 Rockstar Games, Inc.&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;YWR Studio.</p>
                 </div>
