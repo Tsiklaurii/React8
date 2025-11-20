@@ -7,7 +7,7 @@ import fb from '../../assets/images/soc_networks/facebook.svg'
 
 const Footer = () => {
     return (
-        <div className="bg-[#020202] p-[93px_140px] flex items-center place-content-between">
+        <div className="bg-[#020202] p-[93px_140px] flex items-center place-content-between w-full">
             <div className='flex items-center gap-10'>
                 <img src={footer_logo} alt="footer_logo" className='cursor-pointer' />
                 <div className='flex flex-col gap-2'>
