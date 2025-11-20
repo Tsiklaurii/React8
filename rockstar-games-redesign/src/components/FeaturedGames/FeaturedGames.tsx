@@ -13,9 +13,9 @@ const FeaturedGames = ({ gamePoster1, gamePoster2, gamePoster3, gamePoster4 }: F
             <div className="text-[#F6F6F6] flex items-center place-content-between">
                 <p className="text-[48px] font-extrabold">Jogos em Destaque</p>
                 <div className="flex gap-4">
-                    <button className="bg-[#606060] p-[4px_24px] rounded-[100px]">PC</button>
-                    <button className="bg-[#606060] p-[4px_24px] rounded-[100px]">Console</button>
-                    <button className="bg-[#606060] p-[4px_24px] rounded-[100px]">Dispositivos Portáteis</button>
+                    <button className="bg-[#606060] p-[4px_24px] rounded-[100px] cursor-pointer hover:bg-[#4b4b4b] transition-colors">PC</button>
+                    <button className="bg-[#606060] p-[4px_24px] rounded-[100px] cursor-pointer hover:bg-[#4b4b4b] transition-colors">Console</button>
+                    <button className="bg-[#606060] p-[4px_24px] rounded-[100px] cursor-pointer hover:bg-[#4b4b4b] transition-colors">Dispositivos Portáteis</button>
                 </div>
             </div>
             <div className="flex gap-10 m-[40px_0px_64px_0px]">

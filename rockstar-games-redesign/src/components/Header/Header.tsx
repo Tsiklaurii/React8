@@ -2,7 +2,6 @@ import logo from '../../assets/images/logo.svg';
 import arrow_drop_down from '../../assets/images/arrow_drop_down.svg'
 import search from '../../assets/images/search.svg'
 import login from '../../assets/images/login.svg'
-import Button from '../Button/Button';
 
 const Header = () => {
     return (
