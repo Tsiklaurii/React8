@@ -21,11 +21,11 @@ const Footer = () => {
                 </div>
             </div>
             <div className='flex gap-8'>
-                <a href="#"><img src={twitch} alt="twitch" className='cursor-pointer' /></a>
-                <a href="#"><img src={insta} alt="insta" className='cursor-pointer' /></a>
-                <a href="#"><img src={twitter} alt="twitter" className='cursor-pointer' /></a>
-                <a href="#"><img src={youtube} alt="youtube" className='cursor-pointer' /></a>
-                <a href="#"><img src={fb} alt="fb" className='cursor-pointer' /></a>
+                <a href="#"><img src={twitch} alt="twitch" className='cursor-pointer hover:scale-120 transition-transform duration-300' /></a>
+                <a href="#"><img src={insta} alt="insta" className='cursor-pointer hover:scale-120 transition-transform duration-300' /></a>
+                <a href="#"><img src={twitter} alt="twitter" className='cursor-pointer hover:scale-120 transition-transform duration-300' /></a>
+                <a href="#"><img src={youtube} alt="youtube" className='cursor-pointer hover:scale-120 transition-transform duration-300' /></a>
+                <a href="#"><img src={fb} alt="fb" className='cursor-pointer hover:scale-120 transition-transform duration-300' /></a>
             </div>
         </div>
     )
