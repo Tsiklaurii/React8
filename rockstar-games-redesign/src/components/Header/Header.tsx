@@ -18,7 +18,7 @@ const Header = () => {
                 </div>
             </div>
             <div className='flex gap-10'>
-                <button className='bg-[#FCAF17] hover:bg-[#fca017e3] transition-colors rounded-lg p-[11px_16px] cursor-pointer text-[20px]'>Baixe o Launcher</button>
+                <button className='bg-[#FCAF17] hover:bg-[#fca017c5] transition-colors rounded-lg p-[11px_16px] cursor-pointer text-[20px]'>Baixe o Launcher</button>
                 <div className='flex gap-6'>
                     <img src={search} alt="search" className='w-12 h-12 cursor-pointer' />
                     <img src={login} alt="login" className='w-12 h-12 cursor-pointer' />
